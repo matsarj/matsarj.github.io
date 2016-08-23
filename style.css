@@ -1,31 +1,37 @@
- body {
-    background-color: gray;
+body {
+  margin: 0;
+  padding: 0;
+  background: #ccc;
 }
-
-
- ul {
+ 
+.nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: fixed;
     overflow: hidden;
-    width: 100%;
-    background-color: #333;
+    border: 1px solid #e7e7e7;
+    background-color: #464646;
 }
 
-li {
-    float: left;
+.nav li{
+	display: inline;
+	font-size: 25px;
+	font-family: "courier";
+	font-weight: bold;
 }
 
-li a {
-    display: block;
+.nav li a {
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-    background-color: #111;
+.nav li a:hover:not(.active) {
+    background-color: #9A675C;
+}
+
+.nav li a.active {
+    color: white;
+    background-color: #811616;
 }
