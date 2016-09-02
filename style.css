@@ -13,6 +13,7 @@ body {
     background-color: #464646;
     position:fixed;
     width:100%;
+    min-width: 1000px;
 }
 
 .nav li{
@@ -41,12 +42,10 @@ body {
 #top{
   margin: 10% 0% 0% 0%;
   padding: 0% 0% 0% 0%;
-  border: 1px dotted yellow;
 }
 
 #topleft{
   display:inline-block;
-  border:1px dotted black;
 }
 
 #topleft img{
@@ -62,7 +61,7 @@ body {
   border-radius:10px;
   border: 2px solid black;
   margin: 0 74% 0 4%;
-  padding:1% 0% 1% 1%;
+  padding:1% 1% 1% 1%;
   font-size: 20px;
   font-family:Courier;
   font-weight:bold;
@@ -70,7 +69,10 @@ body {
   background-color: #464646;
 }
 
+#topleft ul{
+  text-align:left;
+}
+
 #topcenter{
-  border: 1px dotted red;
   margin: 0;
 }
