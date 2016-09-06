@@ -8,5 +8,6 @@ icon: "http://i.imgur.com/ux8p7og.jpg"
 
 	  {% for post in site.posts %}
 	    <li> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    {{post.excerpt}}
 	  {% endfor %}
 	</ul>
