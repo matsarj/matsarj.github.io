@@ -86,11 +86,11 @@ body {
 #posts li {
 	font-size:35px;
 	color:white;
-	text-decoration:none;
+	text-decoration:underline;
 }
 
 #posts li a{
 	color:white;
-	text-decoration:none;
+	text-decoration:underline;
 }
 
