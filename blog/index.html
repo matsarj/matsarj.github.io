@@ -7,7 +7,10 @@ icon: "http://i.imgur.com/ux8p7og.jpg"
 	<ul id="posts">
 
 	  {% for post in site.posts %}
-	    <li> <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	    <li> <h2> {{post.title}}</h2>
 	    {{post.excerpt}}
+	    
+		<a href = "{{post.url}}"> Read More </a>
+	    </li>
 	  {% endfor %}
 	</ul>
