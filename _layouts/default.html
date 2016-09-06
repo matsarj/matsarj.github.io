@@ -8,14 +8,14 @@
       <div class="nav">
         <ul>
 	  <img src="http://i.imgur.com/wHanNEi.png"/> 
-          <li><a {% if page.url == 'http://matsarj.github.io/index.html' %}class='active'{% endif %} href="/index.html">About Me </a></li>
-          <li><a {% if page.url == 'http://matsarj.github.io/projects.html' %}class='active'{% endif %} href="/projects.html">Projects</a></li>
-          <li><a {% if page.url == 'http://matsarj.github.io/blog/index.html' %}class='active'{% endif %} href="/blog/index.html">Blog</a></li>
+          <li><a {% if page.url == '/index.html' %}class='active'{% endif %} href="/index.html">About Me </a></li>
+          <li><a {% if page.url == '/projects.html' %}class='active'{% endif %} href="/projects.html">Projects</a></li>
+          <li><a {% if page.url == '/blog/index.html' %}class='active'{% endif %} href="/blog/index.html">Blog</a></li>
         </ul>
       </div>
     
     <br />
-    page.url
+    
     <div id = "top">
       <div id = "topleft">
         <img id = "topimg" src = {{page.icon}}>
