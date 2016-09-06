@@ -83,12 +83,6 @@ body {
 	list-style-type:none;
 }
 
-#posts li {
-	font-size:35px;
-	color:white;
-	text-decoration:underline;
-}
-
 #posts li a{
 	color:white;
 	text-decoration:underline;
