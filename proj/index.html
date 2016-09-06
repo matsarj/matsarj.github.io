@@ -1,0 +1,17 @@
+---
+layout: default
+icon: "http://i.imgur.com/5JfHoqH.jpg"
+---
+<div id = "blog">	
+	<h2>{{ page.title }}</h2>
+	<ul id="posts">
+
+	  {% for post in site.projects %}
+	    <li> <h2> {{post.title}}</h2>
+	    {{post.excerpt}}
+	    
+		<a href = "{{post.url}}"> Read More </a>
+	    </li>
+	  {% endfor %}
+	</ul>
+</div>
