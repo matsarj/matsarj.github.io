@@ -83,7 +83,13 @@ body {
 	list-style-type:none;
 }
 
-#posts li{
+#posts li {
 	color:white;
+	text-decoration:none;
+}
+
+#posts li a{
+	color:white;
+	text-decoration:none;
 }
 
