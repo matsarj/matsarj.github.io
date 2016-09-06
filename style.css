@@ -40,39 +40,41 @@ body {
 }
 
 #top{
-  margin: 10% 0% 0% 0%;
+  margin: 10% 20% 0% 5%;
   padding: 0% 0% 0% 0%;
+  border: 3px solid black;
+  border-radius:15px;
+  background:#464646;
+  min-width:800px;
+  
 }
 
 #topleft{
   display:inline-block;
 }
 
-#topleft img{
-  margin: 2% 0 0 5%;
+#topimg{
+  display:inline-block;
+  margin: 1% 0 1% 5%;
   border-radius:20%;
-  height:380px;
-  width:250px;
   background-color: black;
   border: 2px solid black;
+  width:auto;
+  max-height:250px;
+  min-width:200px;
 }
 
-#topleft div{
+#topcenter{
+  vertical-align:top;
+  display:inline-block;
   border-radius:10px;
+  margin:1% 0% 1% 1%;
   border: 2px solid black;
-  margin: 0 74% 0 4%;
-  padding:1% 1% 1% 1%;
+  padding:1% 5% 1% 5%;
+  width:45%;
   font-size: 20px;
   font-family:Courier;
   font-weight:bold;
   color:white;
-  background-color: #464646;
-}
-
-#topleft ul{
-  text-align:left;
-}
-
-#topcenter{
-  margin: 0;
+  background-color: #811616;
 }
