@@ -40,7 +40,7 @@ body {
 }
 
 #top{
-  margin: 10% 20% 0% 5%;
+  margin: 10% 2% 0% 5%;
   padding: 0% 0% 0% 0%;
   border: 3px solid black;
   border-radius:15px;
@@ -68,10 +68,10 @@ body {
   vertical-align:top;
   display:inline-block;
   border-radius:10px;
-  margin:1% 0% 1% 4%;
+  margin: 1% 0% 1% 4%;
   border: 2px solid black;
   padding:1% 5% 1% 5%;
-  width:45%;
+  width:61%;
   font-size: 20px;
   font-family:Courier;
   font-weight:bold;
