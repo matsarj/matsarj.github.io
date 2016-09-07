@@ -3,6 +3,7 @@ permalink: /blog/:title
 
 collections:
     projects:
-    output: true
-    permalink: /projects/:path/
+        output: true
+        permalink: /projects/:path/
+        imag: "http://i.imgur.com/cqbK361.jpg"
 
