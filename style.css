@@ -12,8 +12,7 @@ body {
     border: 1px solid #e7e7e7;
     background-color: #464646;
     position:fixed;
-    width:100%;
-    min-width: 80%;
+    min-width: 800px;
 }
 
 .nav li{
