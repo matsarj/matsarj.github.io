@@ -4,10 +4,6 @@ body {
   background: #ccc;
 }
 
-.nav{
-	width:100%;
-}
-
 .nav ul {
     list-style-type: none;
     margin: 0;
@@ -16,7 +12,8 @@ body {
     border: 1px solid #e7e7e7;
     background-color: #464646;
     position:fixed;
-    min-width: 1200px;
+    width:100%;
+    min-width: 1000px;
 }
 
 .nav li{
@@ -43,13 +40,12 @@ body {
 }
 
 #top{
-  margin: 10% 2% 0% 2%;
+  margin: 10% 10% 0% 2%;
   padding: 0% 0% 0% 0%;
   border: 3px solid black;
   border-radius:15px;
   background:#464646;
-  width: 95%;
-  min-width:600px;
+  min-width:800px;
   
 }
 
@@ -59,7 +55,7 @@ body {
 
 #topimg{
   display:inline-block;
-  margin: 3% 0 1% 5%;
+  margin: 2% 0 1% 5%;
   border-radius:20%;
   background-color: black;
   border: 2px solid black;
@@ -72,11 +68,10 @@ body {
   vertical-align:top;
   display:inline-block;
   border-radius:10px;
-  margin: 1% 0% 1% 4%;
+  margin:1% 0% 1% 5%;
   border: 2px solid black;
-  padding:1% 5% 1% 5%;
-  width:60%;
-  min-width:600px;
+  padding:1% 1% 1% 5%;
+  width:55%;
   font-size: 20px;
   font-family:Courier;
   font-weight:bold;
