@@ -72,6 +72,7 @@ body {
   border: 2px solid black;
   padding:1% 5% 1% 5%;
   width:61%;
+  min-width:600px;
   font-size: 20px;
   font-family:Courier;
   font-weight:bold;
