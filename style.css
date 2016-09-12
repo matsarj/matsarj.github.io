@@ -74,6 +74,7 @@ body {
   font-weight:bold;
   color:white;
   background-color: #6495ED;
+  opacity: .5;
 }
 
 #posts{
