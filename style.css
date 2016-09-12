@@ -10,7 +10,7 @@ body {
     padding: 0;
     overflow: hidden;
     border: 1px solid #e7e7e7;
-    background-color: #6495ED;
+    background-color: #005bbb;
     position:fixed;
     width:100%;
     min-width: 1000px;
@@ -36,12 +36,14 @@ body {
 
 .nav li a.active {
     color: white;
-    background-color: #483D8b;
+    background-color: #6495ED;
 }
 
 #top{
   margin: 10% 10% 0% 2%;
   padding: 0% 0% 0% 0%;
+  border: 2px solid black;
+  border-radius: 20%;
   min-width:800px;
   
 }
