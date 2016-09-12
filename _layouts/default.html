@@ -11,8 +11,8 @@
         <ul>
 	  <img src="http://i.imgur.com/wHanNEi.png"/> 
           <li><a {% if page.url == '/' %}class='active'{% endif %} href="/index.html">About Me </a></li>
-          <li><a {% if page.url == '/proj/' %}class='active'{% endif %} href="/proj/index.html">Projects</a></li>
-          <li><a {% if page.url == '/blog/' %}class='active'{% endif %} href="/blog/index.html">Blog</a></li>
+          <li><a {% if page.url[0] == '/projects/' %}class='active'{% endif %} href="/proj/index.html">Projects</a></li>
+          <li><a {% if page.url[0] == '/blog/' %}class='active'{% endif %} href="/blog/index.html">Blog</a></li>
         </ul>
       </div>
     
