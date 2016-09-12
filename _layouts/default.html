@@ -9,10 +9,11 @@
   <body>
       <div class="nav">
         <ul>
+          {% assign current = page.url | downcase | split: '/' %}	
 	  <img src="http://i.imgur.com/wHanNEi.png"/> 
-          <li><a {% if page.url == '/' %}class='active'{% endif %} href="/index.html">About Me </a></li>
-          <li><a {% if page.url == '/projects/' %}class='active'{% endif %} href="/projects/index.html">Projects</a></li>
-          <li><a {% if page.url == '/blog/' %}class='active'{% endif %} href="/blog/index.html">Blog</a></li>
+          <li><a {% if current[1] == '/' %}class='active'{% endif %} href="/index.html">About Me </a></li>
+          <li><a {% if current[1] == '/projects/' %}class='active'{% endif %} href="/projects/index.html">Projects</a></li>
+          <li><a {% if current[1] == '/blog/' %}class='active'{% endif %} href="/blog/index.html">Blog</a></li>
         </ul>
       </div>
     
