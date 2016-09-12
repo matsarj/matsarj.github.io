@@ -103,8 +103,6 @@ body {
 }
 
 pre {
-	background: yellow;
-	border-radius: 2%;
-	border: 2px solid black;
+	background: #4682B4;
 }
 
