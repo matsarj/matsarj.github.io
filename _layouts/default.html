@@ -11,8 +11,8 @@
         <ul>
 	  <img src="http://i.imgur.com/wHanNEi.png"/> 
           <li><a {% if page.url == '/' %}class='active'{% endif %} href="/index.html">About Me </a></li>
-          <li><a {% if page.url == '/projects/' %}class='active'{% endif %} href="/projects/index.html">Projects</a></li>
-          <li><a {% if page.url == '/blog/' %}class='active'{% endif %} href="/blog/index.html">Blog</a></li>
+          <li><a {% if page.url | split:'/' | first == '/projects/' %}class='active'{% endif %} href="/projects/index.html">Projects</a></li>
+          <li><a {% page.url | split:'/' | first == '/blog/' %}class='active'{% endif %} href="/blog/index.html">Blog</a></li>
         </ul>
       </div>
     
@@ -24,7 +24,7 @@
       </div>
       <div id = "topcenter">
 	{{content}}
-	{{page.url[0]}}
+
 	test
       </div>
     </div>
