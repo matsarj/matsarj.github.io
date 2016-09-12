@@ -73,7 +73,7 @@ body {
   font-family:Courier;
   font-weight:bold;
   color:white;
-  background: rgba(100, 149, 237, .5);
+  background: rgb(100, 149, 237);
 }
 
 #posts{
