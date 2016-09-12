@@ -58,9 +58,7 @@ body {
   background-color: black;
   border: 2px solid black;
   width:auto;
-  max-height:250px;
-  min-width:200px;
-  max-width: 250px;
+  height:200px;
 }
 
 #topcenter{
