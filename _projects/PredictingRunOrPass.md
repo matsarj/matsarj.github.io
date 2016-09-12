@@ -35,5 +35,6 @@ file_loc = "/home/matt/Downloads/nfl.csv"
 data = pd.read_csv(file_loc)
 
 second = data[(data['down'] == 2) & 
-((data['PlayType'] == 'Pass') | (data['PlayType'] == 'Run'))]
+          ((data['PlayType'] == 'Pass') | 
+          (data['PlayType'] == 'Run'))]
 </pre>
