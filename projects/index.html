@@ -3,15 +3,16 @@ layout: default
 icon: "http://i.imgur.com/cqbK361.jpg"
 ---
 <div id = "blog">	
-	<h2>{{ page.title }}</h2>
+
 	<ul id="posts">
 
 	  {% for post in site.projects %}
 	    <div>	
 	    <li> <h2> {{post.title}}</h2>
+	    
 	    {{post.excerpt}}
 	    
-		<a href = "{{post.url}}"> Read More </a>
+		<a href = "\n{{post.url}}"> Read More </a>
 	    </li>
 	    </div>
 	  {% endfor %}
