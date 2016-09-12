@@ -10,4 +10,4 @@ The purpose of this notebook is to implement some machine learning algorithms to
 
 Before applying any sophisticated techniques, we considered a couple basic prediction strategies. One such strategy is to simply always choose pass, since teams choose to pass on second down 58% of the time. On the other hand, if it is second and short, teams tend to run more than pass, as the following graphic shows.
 
-<img src = '/proj/PredictingRunOrPass/pies.png', style = "width:60%; height:auto;">
+<img src = '/proj/PredictingRunOrPass/pies.png' style = "width:60%; height:auto;">
