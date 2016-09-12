@@ -10,7 +10,7 @@ body {
     padding: 0;
     overflow: hidden;
     border: 1px solid #e7e7e7;
-    background-color: 'SkyBlue';
+    background-color: #87CEEB;
     position:fixed;
     width:100%;
     min-width: 1000px;
