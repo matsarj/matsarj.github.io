@@ -105,5 +105,6 @@ body {
 pre {
 	background: white;
 	border-radius: 2%;
+	border: 2px solid black;
 }
-}
+
