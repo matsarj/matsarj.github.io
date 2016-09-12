@@ -30,8 +30,10 @@ from sklearn.grid_search import GridSearchCV
 
 </pre>
 
+<pre class="prettyprint py-html">
 file_loc = "/home/matt/Downloads/nfl.csv"
 data = pd.read_csv(file_loc)
 
 second = data[(data['down'] == 2) & 
 ((data['PlayType'] == 'Pass') | (data['PlayType'] == 'Run'))]
+</pre>
