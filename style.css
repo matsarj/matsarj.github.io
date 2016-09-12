@@ -21,6 +21,7 @@ body {
 	font-size: 25px;
 	font-family: "courier";
 	font-weight: bold;
+	border-radius: 1%;
 }
 
 .nav li a {
