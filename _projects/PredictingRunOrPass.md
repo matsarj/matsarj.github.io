@@ -14,4 +14,6 @@ Before applying any sophisticated techniques, we considered a couple of basic pr
 
 This suggests that we could get a decent prediction by choosing run when it is second down with five yards or fewer to go, and pass otherwise. Indeed, this results in a 62.6% accuracy when tested against our dataset. Our goal is to try to beat these simple predictions using machine learning techniques.
 
-The first step is to prepare our data. We are going to use two features so that we can better visualize our predictions. We can use the sklearn 
+The first step is to prepare our data. We are going to use two features so that we can better visualize our predictions. We can use the sklearn feature_selection module to choose the two best statistics for predicting pass or run.
+
+<img src = '/projects/PredictingRunOrPass/feature_selection.png' style = "background:white; border: 2px solid black; width:50%; height:auto;"/>
