@@ -40,6 +40,11 @@ body {
     background-color: #001933;
 }
 
+.mainpic img{
+	width:100%;
+	height:auto;
+}
+
 #top{
   margin: 10% 10% 0% 2%;
   padding: 0% 0% 0% 0%;
