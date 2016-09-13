@@ -91,17 +91,6 @@ body {
 	text-decoration:underline;
 }
 
-#posts img{
-  display:inline-block;
-  margin: 2% 0 1% 5%;
-  border-radius:20%;
-  background-color: black;
-  border: 2px solid black;
-  width:auto;
-  max-height:150px;
-  min-width:100px;
-}
-
 
 #topcenter h2{
 	
@@ -113,7 +102,7 @@ pre {
 }
 
 #postpics{
-	width: 200%;
+	width: 100%;
 	height: auto;
 }
 
