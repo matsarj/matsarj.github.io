@@ -1,6 +1,6 @@
 ---
 layout: post
-name: "Visualizing Fourth Down
+name: "Visualizing Fourth Down"
 mainpic: "/projects/Fourth/fourth.JPG"
 excerpt: "We use sliders in matplotlib to analyze various fourth down situations, using the 2015 NFL Play-By-Play dataset."
 ---
