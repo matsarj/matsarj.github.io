@@ -71,6 +71,7 @@ body {
 #topcenter{
   vertical-align:top;
   display:inline-block;
+  margin:auto;
   padding:1% 1% 1% 5%;
   border: 2px solid black;
   width:55%;
