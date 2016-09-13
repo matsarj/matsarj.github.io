@@ -15,11 +15,11 @@ Before applying any sophisticated techniques, we considered a couple of basic pr
 
 This suggests that we could get a decent prediction by choosing run when it is second down with five yards or fewer to go, and pass otherwise. Indeed, this results in a 62.6% accuracy when tested against our dataset. Our goal is to try to beat these simple predictions using machine learning techniques.
 
-The first step is to prepare our data. We are going to limit ourselves to two features so that we can better visualize our predictions by plotting them on the plane. We can use the sklearn feature_selection module to choose the two best statistics for predicting pass or run. 
+First we must prepare our data. It will be convenient to limit ourselves to two features for our predictions. By doing this, we may easily visualize our results by plotting them in the xy-plane. We use the sklearn method SelectKBest (with k = 2 here) to choose the best two features from our dataset. 
 
 <img src = '/projects/PredictingRunOrPass/Feature_Selection.png' style = "background:white; border: 2px solid black; width:50%; height:auto;"/>
 
-Based on these results, we choose the number of yards to go for a first down, as well as score differential, as the two features we will be using for our predictions. We can now plot all of the points in the data set, with pass plays colored blue, and run plays colored red.
+Based on these results, we choose the number of yards to go for a first down, as well as score differential, as the two features we will be using for our predictions. Next we separate our data into two subsets. Namely, we have a training subset consisting of 80% of the data, and a testing subset consisting of the other 20%. Here we plot the testing data with run in red and pass in blue, first with the actual play calls and then with our naive prediction.
 
 <img src = '/projects/PredictingRunOrPass/second_downs.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
 
