@@ -82,8 +82,8 @@ body {
 }
 
 #topcenter a{
-	font-weight: bold;
-	text-decoration:none;
+	font-weight: black;
+	text-decoration:underline;
 	color:blue;
 }
 
