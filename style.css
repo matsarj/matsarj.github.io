@@ -47,9 +47,9 @@ body {
 }
 
 #top{
-  padding: 0% 0% 0% 10%;
+  padding: 0% 0% 0% 0%;
   min-width:800px;
-  margin: 5% 0% 0% 5%;
+  margin: 5% 0% 0% 0%;
   display:inline-block;	
 	
 }
@@ -70,7 +70,7 @@ body {
 #topcenter{
   vertical-align:top;
   display:inline-block;
-  margin: 2% 0% 2% 2%;
+  margin: 2% 10% 2% 5%;
   padding: 0% 0% 0% 0%;
   width:50%;
   font-size: 20px;
