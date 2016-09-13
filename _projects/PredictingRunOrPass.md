@@ -2,7 +2,7 @@
 layout: post
 title: "Predicting Run or Pass on Second Down"
 icon: "/projects/PredictingRunOrPass/football.jpg"
-mainpic: "/projects/PredictingRunOrPass/FootballField.jpg"
+mainpic: "/projects/PredictingRunOrPass/FootballField.png"
 name: "PredictingRunOrPass"
 excerpt: "The purpose of this project is to implement some machine learning algorithms to try and predict whether a team will run or pass on second down, using the 2015 NFL Play-By-Play dataset."
 ---
