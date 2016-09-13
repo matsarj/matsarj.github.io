@@ -81,6 +81,11 @@ body {
   background: white;
 }
 
+#topcenter a{
+	font-weight: bold;
+	text-decoration:none;
+}
+
 #posts{
 	list-style-type:none;
 }
