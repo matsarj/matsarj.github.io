@@ -73,7 +73,6 @@ body {
   display:inline-block;
   margin: 2% 5% 2% 5%;
   padding:1% 1% 1% 5%;
-  border: 2px solid black;
   width:55%;
   font-size: 20px;
   font-family:Courier;
@@ -104,6 +103,6 @@ pre {
 #postpics{
 	width: 100%;
 	height: auto;
-	max-height:200px;
+	max-height:180px;
 }
 
