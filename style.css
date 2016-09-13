@@ -57,7 +57,7 @@ body {
 
 #topimg{
   display:inline-block;
-  margin: 0% 0 0% 10%;
+  margin: 2% 0 0% 40%;
   border-radius:20%;
   background-color: black;
   border: 2px solid black;
@@ -70,7 +70,7 @@ body {
 #topcenter{
   vertical-align:top;
   display:inline-block;
-  margin: 2% 10% 2% 5%;
+  margin: 2% 10% 2% 30%;
   padding: 0% 0% 0% 0%;
   width:50%;
   font-size: 20px;
