@@ -60,9 +60,8 @@ body {
 
 #topimg{
   display:inline-block;
-  margin: 2% 0 1% 5%;
+  margin: 2% 0 1% 1%;
   border-radius:20%;
-  float:left;
   background-color: black;
   border: 2px solid black;
   width:auto;
