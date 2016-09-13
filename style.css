@@ -47,7 +47,7 @@ body {
 }
 
 #top{
-  margin: 0% 10% 0% 0%;
+  margin: 4% 10% 0% 0%;
   padding: 0% 0% 0% 0%;
   min-width:800px;
   
@@ -55,9 +55,6 @@ body {
 
 #topleft{
   display:inline-block;
-  background: #005bbb;
-  height:100%;
-  width:25%;
 }
 
 #topimg{
