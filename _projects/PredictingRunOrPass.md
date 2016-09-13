@@ -23,6 +23,8 @@ Based on these results, we choose the number of yards to go for a first down, as
 
 <img src = '/projects/PredictingRunOrPass/second_downs.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
 
-The next step is to normalize our data, and split it into training and testing subsets. Again, sklearn will do this easily, using the preprocessing module to normalize the data and the crossvalidation module to split the data up. Here is a picture of the normalized testing subset, along with a visualization of our naive prediction on this subset.
+Some of the algorithms we will be using work better with our features normalized and standardized. Normalizing will scale the features so they take values between 0 and 1. Standardizing gives the data a standard normal distribution. Here is a plot of the same data we just showed, with the features normalized and standardized.
 
 <img src = '/projects/PredictingRunOrPass/normalized.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
+
+Now we can start playing with some machine learning algorithms! We'll start with <a href = "http://matsarj.github.io/blogs/logisticregression.html">logistic regression</a>. 
