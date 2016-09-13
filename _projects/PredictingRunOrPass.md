@@ -21,8 +21,8 @@ The first step is to prepare our data. We are going to limit ourselves to two fe
 
 Based on these results, we choose the number of yards to go for a first down, as well as score differential, as the two features we will be using for our predictions. We can now plot all of the points in the data set, with pass plays colored blue, and run plays colored red.
 
-<img src = '/projects/PredictingRunOrPass/second_downs.png' style = "background:white; border: 2px solid black; width:50%; height:auto;"/>
+<img src = '/projects/PredictingRunOrPass/second_downs.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
 
 The next step is to normalize our data, and split it into training and testing subsets. Again, sklearn will do this easily, using the preprocessing module to normalize the data and the crossvalidation module to split the data up. Here is a picture of the normalized testing subset, along with a visualization of our naive prediction on this subset.
 
-<img src = '/projects/PredictingRunOrPass/normalized.png' style = "background:white; border: 2px solid black; width:50%; height:auto;"/>
+<img src = '/projects/PredictingRunOrPass/normalized.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
