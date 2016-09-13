@@ -82,9 +82,9 @@ body {
 }
 
 #topcenter a{
-	font-weight: black;
+	font-weight: bold;
 	text-decoration:underline;
-	color:blue;
+	color:black;
 }
 
 #posts{
