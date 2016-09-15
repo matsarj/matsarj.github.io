@@ -49,22 +49,22 @@ We run the same procedure using other common classification algorithms, includin
 
 <img src = '/projects/PredictingRunOrPass/support_vector_machine.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
 
-<p style = "font-weight: bold;"> Accuracy on testing set: 64.8% <br> Average score: 64.9% </p>
+<p style = "font-weight: bold;"> Accuracy on testing set: 64.8% <br> Average score on 5 splits: 64.9% </p>
 
 <h2 style = "color: black; text-decoration: Underline;">Support Vector Machine</h2>
 
 <img src = '/projects/PredictingRunOrPass/support_vector_machine.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
 
-<p style = "font-weight: bold;"> Accuracy on testing set: 63.9% <br> Average score: 64.0% </p>
+<p style = "font-weight: bold;"> Accuracy on testing set: 63.9% <br> Average score on 5 splits: 64.0% </p>
 
 <h2 style = "color: black; text-decoration: Underline;">Decision Trees</h2>
 
 <img src = '/projects/PredictingRunOrPass/support_vector_machine.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
 
-<p style = "font-weight: bold;"> Accuracy on testing set: 56.1% <br> Average score: 57.5% </p>
+<p style = "font-weight: bold;"> Accuracy on testing set: 56.1% <br> Average score on 5 splits: 57.5% </p>
 
 <h2 style = "color: black; text-decoration: Underline;">Random Forests with 100 Estimators</h2>
 
 <img src = '/projects/PredictingRunOrPass/support_vector_machine.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
 
-<p style = "font-weight: bold;"> Accuracy on testing set: 61.6% <br> Average score: 62.5% </p>
+<p style = "font-weight: bold;"> Accuracy on testing set: 61.6% <br> Average score on 5 splits: 62.5% </p>
