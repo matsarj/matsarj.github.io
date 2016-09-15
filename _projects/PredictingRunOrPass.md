@@ -68,3 +68,5 @@ We run the same procedure using other common classification algorithms, includin
 <img src = '/projects/PredictingRunOrPass/support_vector_machine.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
 
 <p style = "font-weight: bold;"> Accuracy on testing set: 61.6% <br> Average score on 5 splits: 62.5% </p>
+
+In conclusion, many of these results give us better results than the naive strategy. The next step is to choose our parameters more carefully. For instance, how many neighbors would give the best result for k-NN? How many estimators should we use for random forests? Should we use a linear or polynomial (and what degree?) kernel for our support vector machine? We will tackle these issues in another post. Our new goal is to come up with a strategy which predicts correctly 70% of the time.
