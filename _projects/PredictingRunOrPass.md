@@ -63,9 +63,9 @@ We run the same procedure using other common classification algorithms, includin
 
 <p style = "font-weight: bold;"> Accuracy on testing set: 56.1% <br> Average score on 5 splits: 57.5% </p>
 
-<h2 style = "color: black; text-decoration: Underline;">Random Forests with 100 Estimators</h2>
+<h2 style = "color: black; text-decoration: Underline;">Random Forest with 100 Estimators</h2>
 
-<img src = '/projects/PredictingRunOrPass/random_forests.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
+<img src = '/projects/PredictingRunOrPass/random_forest.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
 
 <p style = "font-weight: bold;"> Accuracy on testing set: 61.6% <br> Average score on 5 splits: 62.5% </p>
 
