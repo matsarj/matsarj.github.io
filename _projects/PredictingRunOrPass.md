@@ -41,3 +41,6 @@ We write a function graphPredict to graph the prediction and give the accuracy. 
 
 <img src = '/projects/PredictingRunOrPass/logistic.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
 
+This results in a 63.6% accuracy on our testing set. We also run the cross_val_score function to find the accuracy on 5 different test/training splits, which when averaged together still results in a 63.6% accuracy. So the prediction obtained by logistic regression seems to be slightly better than the naive prediction.
+
+We run the same procedure using other common classification algorithms, including: <a href = "/blog/k-NN">k-Nearest Neighbors</a>, <a href = "/blog/Support-Vector-Machines">Support Vector Machines</a>, <a href = "/blog/Decision-Trees">Decision Trees</a>, and <a href = "/blog/Random-Forests">Random Forests</a>. Here are the resulting graphs and accuracies of these algorithms.
