@@ -110,7 +110,8 @@ pre {
 #postpics{
 	width: 100%;
 	height: auto;
-	max-height:180px;
+	max-width: 600
+	max-height:200px;
 }
 
 #blog{
