@@ -45,8 +45,9 @@ This results in a 63.6% accuracy on our testing set. We also run the cross_val_s
 
 We run the same procedure using other common classification algorithms, including: <a href = "/blog/k-NN">k-Nearest Neighbors</a>, <a href = "/blog/Support-Vector-Machines">Support Vector Machines</a>, <a href = "/blog/Decision-Trees">Decision Trees</a>, and <a href = "/blog/Random-Forests">Random Forests</a>. Here are the resulting graphs and accuracies of these algorithms.
 
-<h2 style = "color: red;">k-NN with k = 61 </h2>
+<h2 style = "text-decoration: Underline;">Support Vector Machines</h2>
 
-<img src = '/projects/PredictingRunOrPass/neighbors.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
+<img src = '/projects/PredictingRunOrPass/support_vector_machines.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
 
 <p style = "font-weight: bold;"> Accuracy on testing set: 64.8% <br> Average score: 64.9% </p>
+
