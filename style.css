@@ -115,5 +115,6 @@ pre {
 
 #blog{
 	width: 150%;
-	color: black;
+	color: green;
+	margin: 0 0 0 -20%;
 }
