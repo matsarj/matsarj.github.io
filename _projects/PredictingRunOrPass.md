@@ -19,7 +19,7 @@ First we must prepare our data. It is convenient to limit ourselves to two featu
 
 <img src = '/projects/PredictingRunOrPass/Feature_Selection.png' style = "background:white; border: 2px solid black; width:50%; height:auto;"/>
 
-Based on these results, we choose the number of yards to go for a first down, as well as score differential, as the two features we will be using for our predictions. Next we separate our data into two subsets. Namely, we have a training subset consisting of 80% of the data, and a testing subset consisting of the other 20%. Here is a plot the testing data, with run in red and pass in blue. The first plot represents the actual play calls and the second is our naive prediction.
+Based on these results, we choose the number of yards to go for a first down, as well as score differential, as the two features we will be using for our predictions. Next we separate our data into two subsets. Namely, we have a training subset consisting of 80% of the data, and a testing subset consisting of the other 20%. Here is a plot of the testing data, with run in red and pass in blue. The first plot represents the actual play calls and the second is our naive prediction.
 
 <img src = '/projects/PredictingRunOrPass/second_downs.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
 
@@ -47,7 +47,7 @@ We run the same procedure using other common classification algorithms, includin
 
 <h2 style = "color: black; text-decoration: Underline;">61-Nearest Neighbors</h2>
 
-<img src = '/projects/PredictingRunOrPass/support_vector_machine.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
+<img src = '/projects/PredictingRunOrPass/neighbors.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
 
 <p style = "font-weight: bold;"> Accuracy on testing set: 64.8% <br> Average score on 5 splits: 64.9% </p>
 
@@ -59,13 +59,13 @@ We run the same procedure using other common classification algorithms, includin
 
 <h2 style = "color: black; text-decoration: Underline;">Decision Trees</h2>
 
-<img src = '/projects/PredictingRunOrPass/support_vector_machine.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
+<img src = '/projects/PredictingRunOrPass/decision_tree.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
 
 <p style = "font-weight: bold;"> Accuracy on testing set: 56.1% <br> Average score on 5 splits: 57.5% </p>
 
 <h2 style = "color: black; text-decoration: Underline;">Random Forests with 100 Estimators</h2>
 
-<img src = '/projects/PredictingRunOrPass/support_vector_machine.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
+<img src = '/projects/PredictingRunOrPass/random_forests.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
 
 <p style = "font-weight: bold;"> Accuracy on testing set: 61.6% <br> Average score on 5 splits: 62.5% </p>
 
