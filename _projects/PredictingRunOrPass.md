@@ -27,7 +27,7 @@ Some of the algorithms we will be using work better with our features normalized
 
 <img src = '/projects/PredictingRunOrPass/normalized.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
 
-Now we can start playing with some machine learning algorithms! We'll start with <a href = "/blogs/Logistic-Regression">logistic regression</a>. With sklearn it is as simple as running the following code:
+Now we can start playing with some machine learning algorithms! We'll start with <a href = "/blog/Logistic-Regression">logistic regression</a>. With sklearn it is as simple as running the following code:
 
 <pre class="prettyprint py-html">
 
