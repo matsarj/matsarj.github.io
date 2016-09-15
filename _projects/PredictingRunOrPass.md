@@ -9,17 +9,17 @@ excerpt: "The purpose of this project is to implement some machine learning algo
 
 The purpose of this project is to implement some machine learning algorithms to try and predict whether a team will run or pass on second down, using the 2015 NFL Play-By-Play dataset. <a href = "https://github.com/matsarj/matsarj.github.io/blob/master/projects/PredictingRunOrPass/PredictingRunOrPass.html"> Here</a> is a link to the relevant jupyter notebook.
 
-Before applying any sophisticated techniques, we considered a couple of basic prediction strategies. One such strategy is to simply always choose pass, since teams choose to pass on second down 58% of the time. On the other hand, if it is second and short, teams tend to run more than pass, as the following graphic shows.
+Before applying any sophisticated techniques, we consider a couple of basic prediction strategies. One such strategy is to simply always choose pass, since teams choose to pass on second down 58% of the time. On the other hand, if it is second and short, teams tend to run more than pass, as the following graphic shows.
 
 <img src = '/projects/PredictingRunOrPass/pies.png' style = "background:white; border: 2px solid black; width:85%; height:auto;"/>
 
-This suggests that we could get a decent prediction by choosing run when it is second down with five yards or fewer to go, and pass otherwise. Indeed, this results in a 62.6% accuracy when tested against our dataset. Our goal is to try to beat these simple predictions using machine learning techniques.
+This suggests that we can get a decent prediction by choosing run when it is second down with five yards or fewer to go, and pass otherwise. Indeed, this results in a 62.6% accuracy when tested against our dataset. Our goal is to try to beat these simple predictions using machine learning techniques.
 
-First we must prepare our data. It will be convenient to limit ourselves to two features for our predictions. By doing this, we may easily visualize our results by plotting them in the xy-plane. We use the sklearn method SelectKBest (with k = 2 here) to choose the best two features from our dataset. 
+First we must prepare our data. It is convenient to limit ourselves to two features for our predictions. By doing this, we may easily visualize our results by plotting them in the xy-plane. We use the sklearn method SelectKBest to choose the best two features from our dataset. 
 
 <img src = '/projects/PredictingRunOrPass/Feature_Selection.png' style = "background:white; border: 2px solid black; width:50%; height:auto;"/>
 
-Based on these results, we choose the number of yards to go for a first down, as well as score differential, as the two features we will be using for our predictions. Next we separate our data into two subsets. Namely, we have a training subset consisting of 80% of the data, and a testing subset consisting of the other 20%. Here we plot the testing data with run in red and pass in blue, first with the actual play calls and then with our naive prediction.
+Based on these results, we choose the number of yards to go for a first down, as well as score differential, as the two features we will be using for our predictions. Next we separate our data into two subsets. Namely, we have a training subset consisting of 80% of the data, and a testing subset consisting of the other 20%. Here is a plot the testing data, with run in red and pass in blue. The first plot represents the actual play calls and the second is our naive prediction.
 
 <img src = '/projects/PredictingRunOrPass/second_downs.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
 
@@ -34,4 +34,10 @@ Now we can start playing with some machine learning algorithms! We'll start with
 logistic = LogisticRegression()
 logistic.fit(X_train, y_train)
 
+logistic_prediction = logistic.predict(X_test)
 </pre>
+
+We write a function graphPredict to graph the prediction and give the accuracy. Plugging in our logistic regression model results in the following graph:
+
+<img src = '/projects/PredictingRunOrPass/logistic.png' style = "background:white; border: 2px solid black; width:70%; height:auto;"/>
+
