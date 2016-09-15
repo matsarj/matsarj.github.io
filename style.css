@@ -108,8 +108,9 @@ pre {
 }
 
 #postpics{
-	width: 90%;
+	width: 100%;
 	height: auto;
+	margin: 0 0 0 2%;
 }
 
 #blog{
