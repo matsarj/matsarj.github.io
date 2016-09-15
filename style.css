@@ -108,11 +108,8 @@ pre {
 }
 
 #postpics{
-	width: 100%;
+	width: 80%;
 	height: auto;
-	max-width: 900px;
-	max-height:300px;
-	margin:auto;
 }
 
 #blog{
