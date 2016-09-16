@@ -1,6 +1,5 @@
 name: Matthew Sartwell
 permalink: /blog/:title
-markdown: redcarpet
 
 collections:
     projects:
