@@ -1,6 +1,6 @@
 name: Matthew Sartwell
 permalink: /blog/:title
-markdown: maruku
+markdown: kramdown
 
 collections:
     projects:
