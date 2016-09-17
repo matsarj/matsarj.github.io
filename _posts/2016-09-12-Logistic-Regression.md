@@ -23,4 +23,4 @@ Our complaint about $$ p $$ not being a good candidate for linear regression is 
 Applying the logistic function to both sides, we get the following approximation:
 \\[ p \sim \displaystyle{\frac{1}{1 + e^{\,\, \beta_0 + \beta_1 \cdot X}}} \\]
 
-The coefficients $$\beta_0$$ and $$\beta_1$$ can be found using maximum likliehood estimates.
+The coefficients $$\beta_0$$ and $$\beta_1$$ can be found using maximum liklihood estimates, as we explain in that post.
