@@ -14,5 +14,10 @@ To fix this, note that $$\displaystyle{\frac{x}{1-x}}$$ takes the interval $$(0,
 
 <img src = '/blog/LogisticRegression/logit_function.png' style = "background:white; border: 2px solid black; width:50%; height:auto;"/>
 
+The inverse of the logit function is $$\displaystyle{\frac{1}{1 + e^{-x}}}$$, and is called the $$\textbf{logistic function}$$. The graph of the logistic function is called the S-curve:
+
+<img src = '/blog/LogisticRegression/logistic_function.png' style = "background:white; border: 2px solid black; width:50%; height:auto;"/>
+
 Our complaint about $$ p $$ not being a good candidate for linear regression is no longer true after applying the logistic function. The key idea behind logistic regression is that we can approximate $$\text{logit}(p)$$ by a linear function:
-\\[ \text{ln}\,\displaystyle{\left( \frac{p}{1 - p}\right)} \simeq \beta_0 + \beta_1 \cdot X \\]
+\\[ \text{ln}\,\displaystyle{\left( \frac{p}{1 - p}\right)} \sim \beta_0 + \beta_1 \cdot X \\]
+The coefficients $$\beta_0$$ and $$\beta_1$$ can be found using maximum likliehood estimates.
