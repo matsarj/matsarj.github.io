@@ -23,7 +23,7 @@ Our complaint about $$ p $$ not being a good candidate for linear regression is 
 Applying the logistic function to both sides, we get the following approximation:
 \\[ p \sim \displaystyle{\frac{1}{1 + e^{\, \beta_0 + \beta_1 \cdot X}}} \\]
 
-The coefficients $$\beta_0$$ and $$\beta_1$$ can be found using maximum liklihood estimates MLE, as we explain in that post, and this gives us our desired prediction.
+The coefficients $$\beta_0$$ and $$\beta_1$$ can be found using maximum liklihood estimates (MLE), as we explain in that post, and this gives us our desired prediction.
 
 Now suppose that the response variable $$y$$ takes $$k$$ possible values. Then for each $$c \in \{ 0, 1, 2, ... , k-1 \}$$ we can predict $$ p^{(c)} = p(y = c \vert X)$$ by:
 \\[ p^{(c)} \sim \displaystyle{\frac{1}{1 + e^{\, \beta^{(c)}_0 + \beta^{(c)}_1 \cdot X}}} \\]
