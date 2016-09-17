@@ -8,4 +8,4 @@ In this post I am going to investigate the machine learning algorithm known as l
 
 Instead of trying to immediately estimate the function $$ y = f(X) $$, which takes the values 0 and 1, logistic regression attempts approximate the conditional probability function $$ p(y=1 \vert X) $$. Then we may assign $$y$$ the value of 1 if we estimate a probability higher than .5, and the value 0 otherwise. One might attempt to approximate this probability function using linear regression, but there is an obvious issue with this: any non-horizontal line (and note that a horizontal line would not be a useful approximation) takes values from negative infinity to infinity, while we know that $$ p(y \vert X) $$ should only take values from 0 to 1. 
 
-To fix this, suppose our approximation to $$ p(y=1 \vert X) $$, let's call it $$ q(X) $$, takes its values in the open interval (0, 1). Then applying the function: $$ \[ \frac{x}{1-x} \] $$
+To fix this, suppose our approximation to $$ p(y=1 \vert X) $$, let's call it $$ q(X) $$, takes its values in the open interval (0, 1). Then applying the function: \\[ \frac{x}{1-x} \\]
