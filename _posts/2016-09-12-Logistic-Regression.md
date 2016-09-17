@@ -25,5 +25,5 @@ Applying the logistic function to both sides, we get the following approximation
 
 The coefficients $$\beta_0$$ and $$\beta_1$$ can be found using maximum liklihood estimates, as we explain in that post, and this gives us our desired prediction.
 
-Now suppose that the response variable $$y$$ takes $$k$$ possible values $$0, 1, 2, ... , k-1$$. Then we can predict each $$ p_c = p(y = c \vert X)$$ by:
-\\[ p_c \sim \displaystyle{\frac{1}{1 + e^{\, \beta_{0c} + \beta_{1c} \cdot X}}} \\]
+Now suppose that the response variable $$y$$ takes $$k$$ possible values $$0, 1, 2, ... , k-1$$. Then we can predict each $$ p^{(c)} = p(y = c \vert X)$$ by:
+\\[ p^{(c)} \sim \displaystyle{\frac{1}{1 + e^{\, \beta^{(c)}_0 + \beta^{(c)}_1 \cdot X}}} \\]
