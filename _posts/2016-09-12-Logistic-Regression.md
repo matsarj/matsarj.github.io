@@ -18,6 +18,9 @@ The inverse of the logit function is $$\displaystyle{\frac{1}{1 + e^{-x}}}$$, an
 
 <img src = '/blog/LogisticRegression/logistic_function.png' style = "background:white; border: 2px solid black; width:50%; height:auto;"/>
 
-Our complaint about $$ p $$ not being a good candidate for linear regression is no longer true after applying the logistic function. The key idea behind logistic regression is that we can approximate $$\text{logit}(p)$$ by a linear function:
+Our complaint about $$ p $$ not being a good candidate for linear regression is no longer true after applying the logistic function. The key idea behind logistic regression is that we can approximate $$\text{logit}\,(p)$$ by a linear function:
 \\[ \text{ln}\,\displaystyle{\left( \frac{p}{1 - p}\right)} \sim \beta_0 + \beta_1 \cdot X \\]
+Applying the logistic function to both sides, we get the following approximation:
+\\[ p \sim \displaystyle{\frac{1}{1 + e^{\beta_0 + \beta_1 \cdot X}} \\]
+
 The coefficients $$\beta_0$$ and $$\beta_1$$ can be found using maximum likliehood estimates.
