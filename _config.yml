@@ -1,6 +1,7 @@
 name: Matthew Sartwell
 permalink: /blog/:title
 markdown: kramdown
+paginate: 3
 
 collections:
     projects:
