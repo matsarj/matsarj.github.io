@@ -2,6 +2,7 @@ name: Matthew Sartwell
 permalink: /blog/:title
 markdown: kramdown
 paginate: 3
+paginate_path: "/blog/page:num/"
 
 collections:
     projects:
