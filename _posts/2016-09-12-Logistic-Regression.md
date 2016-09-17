@@ -14,4 +14,5 @@ To fix this, note that $$\displaystyle{\frac{x}{1-x}}$$ takes the interval $$(0,
 
 <img src = '/blog/LogisticRegression/logit_function.png' style = "background:white; border: 2px solid black; width:50%; height:auto;"/>
 
-Our complaint about $$ q(X) $$ not being a good candidate for linear regression is no longer true after applying the logistic function. The key idea behind logistic regression is that we can approximate $$\text{logit}(q(X))$$ by a linear function.
+Our complaint about $$ q(X) $$ not being a good candidate for linear regression is no longer true after applying the logistic function. The key idea behind logistic regression is that we can approximate $$\text{logit}(q(X))$$ by a linear function:
+$$\\[\text{ln}\,\displaystyle{\left( \frac{x}{1 - x}\right)}\\]$$
