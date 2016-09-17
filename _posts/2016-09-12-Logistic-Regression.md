@@ -14,7 +14,7 @@ To fix this, note that $$\displaystyle{\frac{x}{1-x}}$$ takes the interval $$(0,
 
 <img src = '/blog/LogisticRegression/logit_function.png' style = "background:white; border: 2px solid black; width:50%; height:auto;"/>
 
-The inverse of the logit function is $$\displaystyle{\frac{1}{1 + e^{-x}}}$$, and is called the $$\textbf{logistic function}$$. The graph of the logistic function is called the S-curve:
+Also important to us is the inverse of the logit function, given by $$\textbf{logit}^{-1}\,(x) = \displaystyle{\frac{1}{1 + e^{-x}}}$$. This is called the $$\textbf{logistic function}$$, and its graph is called the S-curve:
 
 <img src = '/blog/LogisticRegression/logistic_function.png' style = "background:white; border: 2px solid black; width:50%; height:auto;"/>
 
