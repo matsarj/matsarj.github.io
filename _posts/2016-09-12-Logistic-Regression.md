@@ -6,7 +6,7 @@ excerpt: "In this post I am going to investigate the machine learning algorithm 
 ---
 In this post I am going to investigate the machine learning algorithm known as logistic regression. Despite the name, this is actually a classification method. In other words, we are using our features $$X$$ to predict a categorical response variable $$y$$, which represents qualitative data: yes/no, good/bad, small/medium/large, etc. For simplicity, we are going to assume that $$y$$ may take on just two values, $$0$$ and $$1$$. We will discuss the more general question of what happens when there are $$3$$ or more categories involved at the end of the post.
 
-Given a new data point $$X = (x_1, x_2, ..., x_n)$$, we want to determine whether to assign it the value $$1$$ or $$0$$. Instead of trying to determine the function $$ y = f(X) $$ directly, logistic regression attempts to approximate $$p = p(y=1 \vert X) $$, the conditional probability that $$y$$ is $$1$$ given that $$X$$ take on the values $$(x_1, x_2, ..., x_n)$$. Then we may assign this data point the value of $$1$$ if we estimate a probability higher than $$.5$$, and the value $$0$$ otherwise. A benefit in using this probability function, rather than $$f(X)$$ directly, is that it takes its values on an interval, and thus we may apply calculus methods. 
+Given a new data point $$X = (x_1, x_2, ..., x_n)$$, we want to determine whether to assign it the value $$1$$ or $$0$$. Instead of trying to determine the function $$ y = f(X) $$ directly, logistic regression attempts to approximate $$p = p(y=1 \, \vert X) $$, the conditional probability that $$y$$ is $$1$$ given that $$X$$ take on the values $$(x_1, x_2, ..., x_n)$$. Then we may assign this data point the value of $$1$$ if we estimate a probability higher than $$.5$$, and the value $$0$$ otherwise. A benefit in using this probability function, rather than $$f(X)$$ directly, is that it takes its values on an interval, and thus we may apply calculus methods. 
 
 A first thought may be to approximate $$p$$ by a line, but there is an obvious issue with this: any non-horizontal line (and note that a horizontal line would not be a useful approximation) takes values from negative infinity to infinity, while we know that $$ p $$ should only take values from 0 to 1. 
 
@@ -25,5 +25,5 @@ Applying the logistic function to both sides, we get the following approximation
 
 The coefficients $$\beta_0$$ and $$\beta_1$$ can be found using maximum liklihood estimates, as we explain in that post, and this gives us our desired prediction.
 
-Now suppose that the response variable $$y$$ takes $$k$$ possible values $$0, 1, 2, ... , k-1$$. Then we can predict each $$ p^{(c)} = p(y = c \vert X)$$ by:
+Now suppose that the response variable $$y$$ takes $$k$$ possible values $$0, 1, 2, ... , k-1$$. Then we can predict each $$ p^{(c)} = p(y = c \, \vert X)$$ by:
 \\[ p^{(c)} \sim \displaystyle{\frac{1}{1 + e^{\, \beta^{(c)}_0 + \beta^{(c)}_1 \cdot X}}} \\]
