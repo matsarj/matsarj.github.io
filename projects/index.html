@@ -7,7 +7,7 @@ mainpic: "/projectslandscape.jpeg"
 
 		<ul id="posts">
 
-	  	{% for post in site.projects %}
+	  	{% for post in site.projects|reverse %}
 	    	<img id = "postpics" src = {{post.mainpic}} />
 	    	<div>	
 	    	<li> <h2> {{post.title}}</h2>
