@@ -5,7 +5,7 @@ icon: "/projects/PredictingRunOrPass/football.jpg"
 mainpic: "/projects/PredictingRunOrPass/RunOrPass.jpg"
 name: "1_PredictingRunOrPass"
 excerpt: "The purpose of this project is to implement some machine learning algorithms to try and predict whether a team will run or pass on second down, using the 2015 NFL Play-By-Play dataset."
-projnum: 1
+date: 2016-09-09
 ---
 
 The purpose of this project is to implement some machine learning algorithms to try and predict whether a team will run or pass on second down, using the <a href = "https://github.com/ryan-maas/project-nfl"> 2015 NFL Play-By-Play</a> dataset. <a href = "/projects/PredictingRunOrPass/PredictingRunOrPass.html"> Here </a> is a link to the relevant jupyter notebook.
