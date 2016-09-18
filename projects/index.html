@@ -7,7 +7,7 @@ mainpic: "/projectslandscape.jpeg"
 
 		<ul id="posts">
 
-    		{% assign sorted = (site.collection_name | sort: 'projnum') | reverse %}
+    		{% assign sorted = (site.collection_name | sort: 'date') | reverse %}
     		{% for post in sorted %}
 	    	<img id = "postpics" src = {{post.mainpic}} />
 	    	<div>	
