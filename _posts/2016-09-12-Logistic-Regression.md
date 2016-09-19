@@ -3,6 +3,7 @@ layout: post
 mainpic: "/blog/LogisticRegression/logistic_regression.png"
 name: "Logistic Regression"
 excerpt: "In this post I am going to investigate the machine learning algorithm known as logistic regression. Despite the name, this is actually a classification method."
+display: "Yes"
 ---
 In this post I am going to investigate the machine learning algorithm known as logistic regression. Despite the name, this is actually a classification method. In other words, we are using our features $$X$$ to predict a categorical response variable $$y$$, which represents qualitative data: yes/no, good/bad, small/medium/large, etc. For simplicity, we are going to assume that $$y$$ may take on just two values, $$0$$ and $$1$$. We will discuss the more general question of what happens when there are $$3$$ or more categories involved at the end of the post.
 
