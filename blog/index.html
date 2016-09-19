@@ -6,7 +6,7 @@ mainpic: "/bloglandscape.jpeg"
 <div id = "blog">	
 	<ul id="posts">
 
-	  {% for post in paginator.posts | where "display", "Yes" %}
+	  {% for post in paginator.posts %}
 	    <img id = "postpics" src = {{post.mainpic}} />
 	    <li> <h2> {{post.name}}</h2>
 	    {{post.excerpt}}
