@@ -125,7 +125,7 @@ pre {
 	text-decoration: none;
 }
 
-#foot{
+.foot{
     clear: both;
     border: 1px groove #aaaaaa;
     background-color: #005bbb;
@@ -138,4 +138,9 @@ pre {
     position: fixed;
     bottom: 0px;
     width: 100%;
+}
+
+.foot a{
+	color: white;
+	text-decoration: none;
 }
