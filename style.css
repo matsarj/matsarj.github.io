@@ -128,18 +128,18 @@ pre {
 .foot{
     clear: both;
     border: 1px groove #aaaaaa;
-    background-color: #005bbb;
-    color: White;
+    background-color: #C60C30;
+    color: #005bbb;
     padding: 0;
     vertical-align: middle;
     line-height: normal;
     margin: 0;
-    position: fixed;
     bottom: 0px;
     width: 100%;
 }
 
 .foot a{
+	font-weight:bold;
 	color: white;
 	text-decoration: none;
 }
