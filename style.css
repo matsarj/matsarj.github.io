@@ -125,8 +125,7 @@ pre {
 	text-decoration: none;
 }
 
-#footer
-{
+#foot{
     clear: both;
     border: 1px groove #aaaaaa;
     background-color: #005bbb;
@@ -140,4 +139,3 @@ pre {
     bottom: 0px;
     width: 100%;
 }
-
