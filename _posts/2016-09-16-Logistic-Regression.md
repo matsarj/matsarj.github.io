@@ -11,7 +11,7 @@ Given a new data point $$X = (x_1, x_2, ..., x_n)$$, we want to determine whethe
 
 A first thought may be to approximate $$p$$ by a line, but there is an obvious issue with this: any non-horizontal line (and note that a horizontal line would not be a useful approximation) takes values from negative infinity to infinity, while we know that $$ p $$ should only take values from 0 to 1. 
 
-To fix this, note that $$\displaystyle{\frac{x}{1-x}}$$ takes the interval $$(0, 1)$$ to the positive real numbers $$(0, \infty)$$, and the natural logarithm $$\text{ln}\,(x)$$ takes the positive reals to the entire real line $$(-\infty, \infty)$$. Thus applying these functions in succession takes the open interval $$(0, 1)$$ to $$(-\infty, \infty)$$. This composition, $$ \text{ln}\,\displaystyle{\left( \frac{x}{1 - x}\right)} $$, is called the $$\textbf{logit}$$ function, denoted \text{logit}\,(x). The graph of the logit function looks like this: 
+To fix this, note that $$\displaystyle{\frac{x}{1-x}}$$ takes the interval $$(0, 1)$$ to the positive real numbers $$(0, \infty)$$, and the natural logarithm $$\text{ln}\,(x)$$ takes the positive reals to the entire real line $$(-\infty, \infty)$$. Thus applying these functions in succession takes the open interval $$(0, 1)$$ to $$(-\infty, \infty)$$. This composition, $$ \text{ln}\,\displaystyle{\left( \frac{x}{1 - x}\right)} $$, is called the $$\textbf{logit}$$ function, denoted $$\text{logit}\,(x)$$. The graph of the logit function looks like this: 
 
 <img src = '/blog/LogisticRegression/logit_function.png' style = "background:white; border: 2px solid black; width:50%; height:auto;"/>
 
