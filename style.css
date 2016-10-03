@@ -126,6 +126,7 @@ pre {
 }
 
 .foot{
+    position:absolute;
     clear: both;
     padding: 0;
     background-color: #005bbb;
