@@ -9,7 +9,7 @@ mainpic: "/projectslandscape.jpeg"
 
     		{% assign sorted = (site.projects | sort: 'date') | reverse %}
     		{% for post in sorted %}
-	    	<img id = "postpics" src = {{post.mainpic}} />
+	    	<img id = "postpics" src = {{post.mainpic}} height="42" width="42"/>
 	    	<div>	
 	    	<li> <h2> {{post.title}}</h2>
 	    
