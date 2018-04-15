@@ -111,7 +111,8 @@ pre {
 
 #postpics{
 	width: 90%;
-	height: 10%;
+	height: auto;
+	max-height: 400px;
 }
 
 #blog{
