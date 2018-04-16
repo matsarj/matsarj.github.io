@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Fitting Distributions in R"
+icon: "/projects/FitDist/720px-Normal_Distribution_PDF.svg.png"
+mainpic: "/projects/FitDist/720px-Normal_Distribution_PDF.svg.png"
+name: "3_FitDist"
+excerpt: "In this notebook we investigate how to fit distributions to datasets in R."
+date: 2018-04-14
+---
+
+In this notebook we are going to look at how to fit distributions to data in R. Here we examine continuous distributions, but analogous methods work in the discrete setting. Our goal is to show how to do these tasks manually first, and then show how the process can be done quickly and easily using the fitdistrplus package.
+
+<a href = "/projects/FitDist/FitDist.html"> Link to Jupyter Notebook </a>
