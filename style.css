@@ -128,11 +128,9 @@ pre {
 
 .foot{
     clear: both;
-    position: absolute;
     padding: 0;
     background-color: #005bbb;
     color: white;
-    vertical-align: middle;
     text-align: center;
     margin: 0;
     bottom: 0px;
