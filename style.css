@@ -128,6 +128,7 @@ pre {
 
 .foot{
     clear: both;
+    position: fixed;
     padding: 0;
     background-color: #005bbb;
     color: white;
