@@ -3,8 +3,8 @@ layout: post
 title: "House Prices with Python"
 icon: "/projects/HousePrices/SalePrice.png"
 mainpic: "/projects/HousePrices/SalePrice.png"
-name: "2_HousePrices"
-excerpt: "The purpose of this project is to implement some machine learning algorithms to try and predict whether a team will run or pass on second down, using the 2015 NFL Play-By-Play dataset."
+name: "4_HousePrices"
+excerpt: "The purpose of this project is to predict house prices in Aimes, Iowa."
 date: 2018-04-14
 ---
 
