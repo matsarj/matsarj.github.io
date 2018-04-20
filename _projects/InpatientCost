@@ -5,7 +5,7 @@ icon: "/projects/InpatientCost/Doctor_and_couple_talking.jpg"
 mainpic: "/projects/InpatientCost/Doctor_and_couple_talking.jpg"
 name: "2_InpatientCost"
 excerpt: "In this project we illustrate the inpatient cost transparency in Tableau."
-date: 2018-04-14
+date: 2018-04-12
 ---
 
 In this project we illustrate the inpatient cost transparency data set available at <a href = "http://healthdata.ny.gov"> healthdata.ny.gov </a> using Tableau.
